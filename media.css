@@ -1,0 +1,61 @@
+@media only screen and (max-width:768px){
+    .row{
+        flex-direction: column;
+    }
+    .col-4, .col-6, .col-8{
+        width: 100%  !important;
+    }
+
+    h1{
+        font-size: 25px !important;
+    }
+    
+    p{
+        font-size: 14px;
+    }
+    nav{display: none;}
+    .container{width: 100%; padding: 0 20px;}
+    .banner_info p {
+        font-size: 14px;
+        margin: 5px 0;
+    }
+    .btn, .btn1{
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+    .about{
+       height: auto;
+       padding: 20px 0;
+    }
+    .about .overlay{
+        height: 115vh;
+        padding: 50px 0;
+    }
+    .choose{
+        height: 150vh;
+    }
+    .event{
+        height: 150vh;
+    }
+    .event .overlay{
+        height: 150vh;
+    }
+    .footer{
+        height: auto;
+    }
+    .gallery{padding:60px 0;}
+    .reservation .container .row{padding: 0;}
+    .reservation .container .row .col-4 input {margin-bottom: 15px;}
+    .pp .row .col-8 .row .col-6 ,
+    .pp .row .col-4 .row .c0l-12{
+        margin-bottom: 15px;
+      }
+      .pp .row .col-8 .row {
+        padding: 0;
+      }
+      .col-12 input, .col-12 textarea{
+        margin-bottom: 15px;
+      }
+}
+
+
